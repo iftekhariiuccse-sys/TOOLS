@@ -1,0 +1,89 @@
+ 
+nav {
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #232323; 
+    padding: 1rem 15%;       
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        nav a:hover {
+            text-transform:none;
+            font:caption;
+            color: #f97316;
+        }
+
+.logo {
+    background-image: url("ICON/spider-man-black-vector-logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;      
+    background-position: left center;
+    
+   
+    padding-left: 100px;            
+    display: inline-block;         
+    line-height: 1;             
+
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: default;
+}
+
+
+button {
+    background-color: #e63946;
+    color: #ffffff;
+    border: none;            
+    padding: 10px 25px;       
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 50px;      
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+}
+
+
+button:hover {
+    background-color: #457b9d; 
+    transform: translateY(-2px); 
+}
+button:active {
+    background-color: #1d3557; 
+    transform: translateY(0);
+}
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                url('ICON/wp4686154.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: color-burn;
+}
+.product{
+    display:flex;
+     background-color:none;
+     flex-wrap: wrap;
+     align-content: center;
+    
+}
+.product div {
+  background-color:white;
+  margin: 10px;
+  padding: 20px;
+  font-size: 15px;
+  align-content: center;
+}
